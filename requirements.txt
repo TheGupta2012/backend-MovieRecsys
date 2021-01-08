@@ -3,6 +3,6 @@ rapidfuzz==0.14.2
 feather_format==0.4.1
 pandas==0.25.1
 Flask_Cors==3.0.10
-feather==0.9.1dev
+feather==0.9.1
 numpy==1.19.5
 scikit_learn==0.24.0
