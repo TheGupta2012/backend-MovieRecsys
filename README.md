@@ -3,7 +3,7 @@
 
 ## BASIS
 - Count Vectorization and cosine similarities among the dataset 
-- Used sklearn text processing functions and 
+- Used scikit-learn's text processing functions
 ## **QUERY STRUCTURE** :point_down:
 > BASE LINK : https://movie-recsys.herokuapp.com/movie?query=
 
