@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import feather as feather
 import random as random
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel
@@ -45,11 +44,11 @@ class Recommender:
         self.cosine = self.get_cosine_sim()
 
     def get_movies(self):
-        movies = feather.read_dataframe("feather_data/movies")
-        return movies[:6000]
+        movies = pd.read_csv("data/movies.csv")
+        return movies
 
     def get_names(self):
-        names = feather.read_dataframe("feather_data/names")
+        names = pd.read_csv(r"data/names.csv")
         return names
 
     def get_genre(self):
