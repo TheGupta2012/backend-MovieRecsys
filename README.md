@@ -2,8 +2,8 @@
 :large_orange_diamond: This is the application involving the query processing for a Movie and Series Recommendation System.
 
 ## BASIS
-- Count Vectorization and cosine similarities among the dataset 
-- Used scikit-learn's text processing functions
+- Content and meta data based recommender
+- Count Vectorization and cosine similarities, amongst the dataset, used for base model
 ## **QUERY STRUCTURE** :point_down:
 > BASE LINK : https://movie-recsys.herokuapp.com/movie?query=
 
