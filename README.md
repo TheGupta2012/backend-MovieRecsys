@@ -1,7 +1,7 @@
 # backend-MovieRecsys
-The application involving the query processing for a Movie and Series Recommendation System.
+:large_orange_diamond: This is the application involving the query processing for a Movie and Series Recommendation System.
 
-## **QUERY STRUCTURE**
+## **QUERY STRUCTURE** :point_down:
 > BASE LINK : https://movie-recsys.herokuapp.com/movie?query=
 
   - The *query* parameter present in the link serves as the link to the API 
@@ -14,3 +14,10 @@ The application involving the query processing for a Movie and Series Recommenda
   - *Getting recommendations similar to Interstellar* : [Interstellar](https://movie-recsys.herokuapp.com/movie?query=Interstellar)
   - *Getting recommendations similar to Movies of Christopher Nolan* : [Christopher Nolan](https://movie-recsys.herokuapp.com/movie?query=ChristopherNolan)
   - *Getting recommendations for thriller movies* : [Thriller](https://movie-recsys.herokuapp.com/movie?query=thriller)
+
+
+### :construction: To - Do 
+  - Make a website accessing this API for recommendations 
+  - Use an Image API to fetch recommendation images and display on website
+  - **SOME TWISTS IMINENT** :wave:
+
