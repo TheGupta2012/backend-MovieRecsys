@@ -48,7 +48,7 @@ class Recommender:
         return movies
 
     def get_names(self):
-        names = pd.read_csv(r"data/names.csv")
+        names = pd.read_csv(r"data/small_names.csv")
         return names
 
     def get_genre(self):
@@ -133,6 +133,10 @@ class Recommender:
         return sorted(rec_movie[:12],key = itemgetter(1),reverse = True)
 
     def recommend_name(self,query):
+        # can reduce the names dataset
+        # how ? get all the movies that person is famous for
+        # now , if the average of the weighted average of the movies
+        # he is famous for is less than 6, remove him, YES! can reduce my time then
         '''
         Recommend movie based on actor/director/actress name
         '''
